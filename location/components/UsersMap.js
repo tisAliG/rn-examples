@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { View, Stylesheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import MapView from 'react-native-maps';
 
 const usersMap = ( props ) => {
@@ -10,7 +10,7 @@ const usersMap = ( props ) => {
     );
 };
 
-const styles = Stylesheet.create( {
+const styles = StyleSheet.create( {
     mapContainer: {
         width: '100%',
         height: 200
